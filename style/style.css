@@ -1,0 +1,96 @@
+/* dit moet ge ctrl-c ctrl-v worden */
+* {
+    font-family: verdana;
+    margin: 0px;
+    padding: 0px;
+}
+/* hier moet alleen overflow ge ctrl-c ctrl-v worden */
+body {
+    background-color: #474350;
+    overflow: hidden;
+}
+/* dit moet ge ctrl-c ctrl-v worden */
+.border {
+    border-left: 90px solid #20bf55;
+    height: 1000px;
+    position: absolute;
+}
+
+.whack {
+    position: relative;
+    left: 700px;
+    top: 300px;
+}
+
+.zeeslag {
+    position: relative;
+    left: 800px;
+    top: 300px;
+}
+
+.bke {
+    position: relative;
+    left: 600px;
+    top: 300px;
+}
+
+.link {
+    background-color: #757575;
+    color: #FBFBFF;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+
+.link:hover {
+    background-color:#c7c7c7 ;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+}
+
+.link:active {
+    background-color: #757575;
+    color: #FBFBFF;
+}
+/* dit moet ge ctrl-c ctrl-v worden */
+.home {
+    background-color: #757575;
+    color: #FBFBFF;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+/* dit moet ge ctrl-c ctrl-v worden */
+.home:hover {
+    background-color:#c7c7c7 ;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+}
+/* dit moet ge ctrl-c ctrl-v worden */
+.home:active {
+    background-color: #757575;
+    color: #FBFBFF;
+}
+
+.game1Background {
+    background-image: url(bgi/BKEbackground.png);
+}
+
+.game2Background {
+    background-image: url(bgi/whackbackground.PNG);
+}
+
+.game3Background {
+    background-image: url(bgi/zeeslagbackground.png);
+}

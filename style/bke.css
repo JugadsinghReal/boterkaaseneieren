@@ -1,0 +1,262 @@
+* {
+    font-family: verdana;
+    color: #FBFBFF;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.border {
+    border-left: 90px solid #20bf55;
+    height: 1000px;
+    position: absolute;
+}
+h1{
+    position: fixed;
+    color: #FBFBFF;
+    left: 740px
+}
+body{
+    background-color: #474350;
+    overflow: hidden;
+}
+td{
+    border: 3px solid black;  
+}
+.wrapper{
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    display: grid;
+    gap: 0px;
+    position: fixed;
+    top: 260px;
+    left: 630px;
+    text-align: center;
+}
+.box{
+    border: solid black;
+}
+.Cell1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 150px;
+}
+.Cell2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 150px;
+}
+.Cell3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 150px;
+}
+.Cell4{
+    font-size: 150px;
+}
+.Cell5{
+    font-size: 150px;
+}
+.Cell6{
+    font-size: 150px;
+}
+.Cell7{
+    font-size: 150px;
+}
+.Cell8{
+    font-size: 150px;
+}
+.Cell9{
+    font-size: 150px;
+}
+
+.X{
+    width: 150px;
+    position: fixed;
+    top: 500px;
+    left: 200px;
+}
+.O{
+    width: 175px;
+    height: 190px;
+    position: fixed;
+    top: 500px;
+    right: 200px;
+}
+.home {
+    background-color: #757575;
+    color: #FBFBFF;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+
+.home:hover {
+    background-color:#c7c7c7 ;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+}
+
+.home:active {
+    background-color: red;
+}
+.gamemode2{
+    background-color: #757575;
+    color: #FBFBFF;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+
+.gamemode2:hover {
+    background-color:#c7c7c7 ;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+}
+
+.gamemode2:active {
+    background-color: red;
+}
+
+.player-title{
+position: fixed;
+color: #FBFBFF;
+left: 242px;
+font-size: 20px;
+top: 300px;
+}
+.computer-title{
+position: fixed;
+color: #FBFBFF;
+font-size: 20px;
+top: 300px;
+right: 242px;
+}
+.computer-wins{
+position: fixed;
+right: 300px;
+bottom: 200px;
+}
+.player-wins{
+position: fixed;
+left: 220px;
+bottom: 200px;
+}
+
+.playerbox {
+    position: relative;
+    border: 5px solid black;
+    height: 525px;
+    width: 300px;
+    top: 250px;
+    left: 110px;
+}
+.computerbox{
+    position: fixed;
+    border: 5px solid black;
+    height: 525px;
+    width: 300px;
+    top: 250px;
+    right: 130px;}
+.computer-counter{
+position: fixed;
+right: 275px;
+bottom: 200px;
+}
+.player-counter{
+    position: fixed;
+    bottom: 200px;
+    left: 275px;
+}
+
+.Button1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 630px;
+    top: 260px;
+    background: transparent;
+}
+.Button2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 830px;
+    top: 260px;
+    background: transparent;
+}
+.Button3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1030px;
+    top: 260px;
+    background: transparent;
+}
+.Button4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 630px;
+    top: 460px;
+    background: transparent;
+}
+.Button5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 830px;
+    top: 460px;
+    background: transparent;
+}
+.Button6{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1030px;
+    top: 460px;
+    background: transparent;
+}
+.Button7{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 630px;
+    top: 660px;
+    background: transparent;
+}
+.Button8{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 830px;
+    top: 660px;
+    background: transparent;
+}
+.Button9{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1030px;
+    top: 660px;
+    background: transparent;
+}
